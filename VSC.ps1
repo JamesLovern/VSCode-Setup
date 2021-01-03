@@ -16,8 +16,11 @@ $extensions =
       "icrawl.discord-vscode",
       "johnpapa.vscode-cloak",
       "mikestead.dotenv",
+      "ms-azuretools.vscode-docker",
       "ms-mssql.mssql",
       "ms-python.python",
+      "ms-toolsai.jupyter",
+      "ms-vscode-remote.remote-containers",
       "ms-vscode-remote.remote-ssh",
       "ms-vscode-remote.remote-ssh-edit",
       "ms-vsliveshare.vsliveshare",
@@ -28,7 +31,6 @@ $extensions =
       "WallabyJs.quokka-vscode",
       "whatwedo.twig",
       "Zignd.html-css-class-completion"
-
 
 $cmd = "code --list-extensions"
 Invoke-Expression $cmd -OutVariable output | Out-Null
